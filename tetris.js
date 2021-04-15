@@ -515,7 +515,6 @@ Board.prototype.remove_complete_rows = function(){
 		if(this.is_row_complete(y)){
 			this.delete_row(y);
 			this.move_down_rows(y-1);
-			this.remove_complete_rows;
 		}
 	}
 };
